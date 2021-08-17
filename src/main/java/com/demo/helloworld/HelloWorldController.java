@@ -13,6 +13,6 @@ public class HelloWorldController {
 
     @RequestMapping("/more")
     public String helloWorld2() {
-        return "Hello World from Turbo House, more stories....";
+        return "Hello World from Turbo House, more stories 6666....";
     }
 }
