@@ -31,3 +31,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Custom ###
+*.log
+*.lck
+*.properties
+*.script
+/node_modules

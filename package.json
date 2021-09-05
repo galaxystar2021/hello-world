@@ -1,0 +1,24 @@
+{
+  "name": "turbo-house",
+  "version": "1.0.0",
+  "description": "The package for tourbo house",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galaxystar2021/hello-world.git"
+  },
+  "author": "Bin Wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galaxystar2021/hello-world/issues"
+  },
+  "homepage": "https://github.com/galaxystar2021/hello-world#readme",
+  "dependencies": {
+    "@babel/core": "^7.15.5",
+    "react": "^17.0.2",
+    "webpack": "^5.52.0"
+  }
+}
