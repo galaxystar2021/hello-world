@@ -80,6 +80,15 @@
 							</configuration>
 						</execution>
 						<execution>
+							<id>npx webpack build</id>
+							<goals>
+								<goal>npx</goal>
+							</goals>
+							<configuration>
+								<arguments>webpack</arguments>
+							</configuration>
+						</execution>
+						<execution>
 							<id>webpack build</id>
 							<goals>
 								<goal>webpack</goal>
