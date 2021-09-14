@@ -38,3 +38,4 @@ build/
 *.properties
 *.script
 /node_modules
+/node
