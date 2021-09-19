@@ -2,6 +2,9 @@ server:
   port: ${APP_PORT:8080}
 
 spring:
+  resources:
+    static-locations:
+      "file:src/main/resources/static/"
   application:
     name: ${APP_NAME:unnamed}
   datasource:
