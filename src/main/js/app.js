@@ -1,12 +1,15 @@
+// @flow
+
 import React, { Component } from 'react';
 import { render as _render } from 'react-dom';
-import Main from './Main';
+import Main from './Main.react';
 
-class App extends Component {
+type Props = {};
+class App extends Component<Props> {
   componentDidMount() {
   }
 
-  render() {
+  render(): React$MixedElement {
     return (
       <Main />
     );
