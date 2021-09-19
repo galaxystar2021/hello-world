@@ -4,7 +4,8 @@
   "description": "The package for tourbo house",
   "main": "index.js",
   "scripts": {
-    "build": "babel src/ -d lib/",
+    "build": "npx webpack",
+    "dev": "npx webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "flow": "flow"
   },
